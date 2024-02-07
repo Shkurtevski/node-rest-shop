@@ -1,0 +1,27 @@
+{
+  "name": "rest-shop",
+  "version": "1.0.0",
+  "description": "a Node.js RESTful API Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shkurtevski/node-rest-shop.git"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api"
+  ],
+  "author": "Nenad Shkurtevski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shkurtevski/node-rest-shop/issues"
+  },
+  "homepage": "https://github.com/Shkurtevski/node-rest-shop#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
