@@ -2,7 +2,14 @@ const express = require("express");
 const app = express();
 const morgan = require("morgan");
 const bodyParser = require("body-parser");
+const mongoose = require("mongoose");
 
+mongoose.connect(
+  `mongodb+srv://nenadshkurtevski:${process.env.MONGO_ATLAS_PW}@node-rest-forum.zqrtyve.mongodb.net/?retryWrites=true&w=majority`,
+  {
+    useMongoClient: true,
+  }
+);
 const productRoutes = require("./api/routes/products");
 const orderRoutes = require("./api/routes/orders");
 
